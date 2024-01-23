@@ -1,3 +1,64 @@
-#heading{
-    color:red;
+.body{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid brown;
+}
+
+.logo{
+    width: 100px;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.res-body{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-card{
+    padding:5px;
+    width: 250px;
+    /* height: 420px; */
+    background-color: #fff;
+    margin:5px;
+}
+
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+
+.search{
+    padding: 10px;
+}
+
+.res-img{
+    width: 100%;
+    height: 200px;
+}
+
+.rating-div{
+    display: flex;
+    justify-content: space-between;
 }
