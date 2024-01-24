@@ -8,6 +8,8 @@
     justify-content: space-between;
     align-items: center;
     border: 1px solid brown;
+    background-color: #f0f0f0;
+    /* color:#f0f0f0 */
 }
 
 .logo{
@@ -47,10 +49,29 @@
     cursor: pointer;
 }
 
-
+.filter{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
 .search{
-    padding: 10px;
+    width: 50%;
+}
+
+.search input {
+    width: 80%;
+    height: 20px;
+}
+
+.search input:focus{
+    /* border: none; */
+    outline: none;
+}
+
+.filter-btn{
+    margin: 10px;
+    cursor: pointer;
 }
 
 .res-img{
@@ -61,4 +82,16 @@
 .rating-div{
     display: flex;
     justify-content: space-between;
+}
+
+.shimmer-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-cards{
+    margin:20px;
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0;
 }
