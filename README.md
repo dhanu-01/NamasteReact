@@ -19,3 +19,22 @@
 - Tree Shaking - remove unused code
 - Different dev and prod bundles
 
+# Namaste Food
+
+
+ * Header
+ * -logo
+ * -Nav itesm
+ * Body
+ * -- search
+ * -- RestaurantContainer
+ *     - RestuarantCard
+
+ * Footer
+  - Copyright
+   - links
+    - Address
+    - Contact
+
+    
+corosals config drive ui based on the location
