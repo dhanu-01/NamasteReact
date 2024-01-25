@@ -36,5 +36,16 @@
     - Address
     - Contact
 
-    
+
 corosals config drive ui based on the location
+
+
+# 2 types Routing in web apps
+
+- Client Side Routing
+- Server Side Routing
+
+# single page application
+
+- only one page only components get rendered
+
